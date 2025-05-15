@@ -14,6 +14,7 @@ tag_judul_kolom = box_table.find_all('th')
 judul_kolom = []
 for item in tag_judul_kolom:
     judul_kolom.append(item.getText())
+print(judul_kolom)
 
 #mengambil isi kolom
 tag_isi_kolom = soup.find_all('td')
